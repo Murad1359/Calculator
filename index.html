@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/main.js"></script> -->
+</head>
+
+<body>
+
+    <div class="calc">
+            <input disabled value="0" class="display" id="output" type="text">
+        <div class="butn">
+            <div class="first_line line">
+                <button type="button" class="btn" id="1" onclick="add('1')">1</button><button class="btn" id="2"  onclick="add('2')">2</button><button class="btn" id="3" onclick="add('3')">3</button><button class="btn org" id="+" onclick="plus()">+</button>
+            </div>
+            <div class="second_line line">
+                <button class="btn" id="4" onclick="add('4')">4</button><button class="btn" id="5" onclick="add('5')">5</button><button class="btn" id="6" onclick="add('6')">6</button><button class="btn org" id="-" onclick="minus()">-</button>
+            </div>
+            <div class="therd_line line">
+                <button class="btn" id="7" onclick="add('7')">7</button><button class="btn" id="8" onclick="add('8')">8</button><button class="btn" id="9" onclick="add('9')">9</button><button class="btn org" id="*" onclick="multiply()">*</button>
+            </div>
+            <div class="forth_line line">
+                <button class="btn" id=",">,</button><button class="btn zero" id="0" onclick="add('0')">0</button><button class="btn org" id="=" onclick="equal()">=</button><button class="btn org" id="/" onclick="divide()">/</button>
+            </div>
+            <div class="fiweth_line line">
+                <button type="button" class="btn" id="clear">C</button>
+            </div>
+        </div>
+    </div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

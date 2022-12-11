@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.calc{
+    width: 300px;
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+.display{
+    width: 290px;
+    height: 60px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.butn{
+    margin-top:55px;
+}
+
+.btn{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.org{
+    color: white;
+    background-color: orange !important;
+}
